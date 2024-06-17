@@ -9,7 +9,8 @@
     "logout": "Выйти",
     "name": "Логин",
     "password": "Пароль",
-    "register": "Регистрация"
+    "register": "Регистрация",
+    "repeat_password": "Повторите пароль"
   },
   "fields": {
     "is_required": "Поле обязательно для заполнения",

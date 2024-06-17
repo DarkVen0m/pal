@@ -18,8 +18,10 @@ class AuthController extends Controller
     {
         if (!Auth::attempt($request->validated())) {
             return response()->json([
-                'message' => 'Invalid Credentials'
-            ], 401);
+                'errors' => [
+                    'credentials' => ['Wrong credentials']
+                ]
+            ], 403);
         }
         $user = Auth::user();
         $token = $user->createToken($user->name)->plainTextToken;

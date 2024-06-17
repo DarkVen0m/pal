@@ -13,7 +13,7 @@ const email = ref('')
 const password = ref('')
 
 const required = (v: string) => {
-  return !!v || 'Field is required'
+  return !!v || t('fields.is_required')
 }
 </script>
 

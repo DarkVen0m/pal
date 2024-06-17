@@ -9,7 +9,8 @@
     "logout": "Logout",
     "name": "Login",
     "password": "Password",
-    "register": "Register"
+    "register": "Register",
+    "repeat_password": "Repeat password"
   },
   "fields": {
     "is_required": "Field is required",

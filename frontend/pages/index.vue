@@ -77,7 +77,7 @@ const { createDialog, createState, addNote, createNote } = useCreateNote()
       >
         <Note
           :note="note"
-          @click.prevent="editNote(note)"
+          @edit="editNote"
           @remove="notesStore.deleteNote"
         />
       </v-col>

@@ -44,7 +44,7 @@ const matchPassword = (v: string) => {
       v-model="password"
       type="password"
       :rules="[required]"
-      :label="$t('auth.password')"
+      :label="$t('auth.repeat_password')"
     />
     <v-text-field
       v-model="repeatPassword"

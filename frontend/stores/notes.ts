@@ -29,7 +29,7 @@ export const useNotesStore = defineStore('notes', () => {
       method: 'POST',
       body: note,
       onResponse: ({ response }) => {
-        if (response.status != 200) return
+        if (response.status != 201) return
         const data: Note = response._data
         notes.value.push(data)
       },
