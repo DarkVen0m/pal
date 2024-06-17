@@ -1,0 +1,31 @@
+{
+  "actions": {
+    "close": "Close",
+    "save": "Save"
+  },
+  "auth": {
+    "email": "Email",
+    "login": "Login",
+    "logout": "Logout",
+    "name": "Login",
+    "password": "Password",
+    "register": "Register"
+  },
+  "fields": {
+    "is_required": "Field is required",
+    "must_match_with_password": "Field must be same as password"
+  },
+  "note": {
+    "create_dialog": {
+      "header": "Add"
+    },
+    "edit_dialog": {
+      "header": "Editting"
+    }
+  },
+  "notes": {
+    "create": "Create",
+    "delete": "Delete",
+    "list": "Notes"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "actions": {
+    "close": "Закрыть",
+    "save": "Сохранить"
+  },
+  "auth": {
+    "email": "Email",
+    "login": "Войти",
+    "logout": "Выйти",
+    "name": "Логин",
+    "password": "Пароль",
+    "register": "Регистрация"
+  },
+  "fields": {
+    "is_required": "Поле обязательно для заполнения",
+    "must_match_with_password": "Поле должно совпадать с паролем"
+  },
+  "note": {
+    "create_dialog": {
+      "header": "Создать"
+    },
+    "edit_dialog": {
+      "header": "Редактирование"
+    }
+  },
+  "notes": {
+    "create": "Создать",
+    "delete": "Удалить",
+    "list": "Заметки"
+  }
+}
